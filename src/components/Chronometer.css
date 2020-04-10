@@ -1,0 +1,44 @@
+.numbers {
+    text-align: center;
+    padding: 20px;
+    font-size: 70px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.timestamps ul {
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    color: salmon;
+    letter-spacing: .1em;
+    padding: 0px 20px;
+}
+
+.activeButton {
+    padding: 20px;
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'IBM Plex Mono', monospace;
+    border-radius: 45px;
+    border-width: 2px;
+    border-color: white;
+    width: 150px;
+    text-align: center;
+    outline: none;
+    letter-spacing: .1em;
+    background-color: transparent;
+    color: white;
+}
+
+.activeButton:hover {
+    background-color: white;
+    color: #191A1E;
+    cursor: pointer;
+}
+
+.inactiveButton {
+    display: none;
+}
